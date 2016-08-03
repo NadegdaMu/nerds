@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Nerds</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+<header class="header-main">
+
+  <div class="header-main__wrapper container">
+    <div class="header-main__top">
+
+
+      <div class="header-main__logo">
+        <img src="img/logo/logo.png" alt="Логотип фирмы">
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link main-nav__link--main">Студия</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Клиенты</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="catalog.html" class="main-nav__link">Магазин</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Контакты</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link main-nav__link--basket">Корзина</a>
+          </li>
+        </ul>  
+      </nav>  
+
+    </div>
+
+    <div class="slider container">
+
+      <input class="slider__input slider__input--1" type="radio" id="btn-1" name="toggle" checked>
+      <input class="slider__input slider__input--2" type="radio" id="btn-2" name="toggle">
+      <input class="slider__input slider__input--3" type="radio" id="btn-3" name="toggle">
+    
+      <div class="slider__controls">
+        <label class="control control--1" for="btn-1"></label>
+        <label class="control control--2" for="btn-2"></label>
+        <label class="control control--3" for="btn-3"></label>
+      </div>
+        
+      <ul class="slider__list clearfix">
+        <li class="slider__item">
+          <div class="slider__wrapper">
+            <h1 class="slider__title">Долго, дорого,<br> скрупулезно.</h1>
+            <p class="slider__text">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+            <button class="slider__btn btn" type="submit">узнать больше</button>
+          </div>
+          <img class="slider__img" src="img/slider/slider1.png" alt="">
+        </li>
+        <li class="slider__item">
+          <div class="slider__wrapper">
+            <h1 class="slider__title">Любите ли вы математику,<br> как любим ее мы?</h1>
+            <p class="slider__text">Нашим дизайнерам мы удаляем нейроны, ответственные<br>за креатив, чтобы дать им возможность все просчитать</p>
+            <button class="slider__btn btn" type="submit">узнать больше</button>
+          </div>
+          <img class="slider__img" src="img/slider/slider2.png" alt="">
+        </li>
+        <li class="slider__item">
+          <div class="slider__wrapper">
+            <h1 class="slider__title">Только наркотики,<br>только хардкор!</h1>
+            <p class="slider__text">Все дизайнерские решения в нашей компании принимаются<br>только под воздействием качественных галлюциногенов</p>
+            <button class="slider__btn btn" type="submit">узнать больше</button>
+          </div>
+          <img class="slider__img" src="img/slider/slider3.png" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<main class="content-main container">
+  
+  <section class="wrapper clearfix">
+
+    <div class="services">
+      <img src="img/picture/1.jpg" alt="Картика экрана монитора" class="services__img">
+      <h3 class="services__title">Веб-сайты</h3>
+      <p class="services__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+      <button class="services__btn btn">Заказать</button>
+    </div>
+  
+    <div class="services">
+      <img src="img/picture/2.jpg" alt="Картинка мобильных телефонов" class="services__img">
+      <h3 class="services__title">Приложения</h3>
+      <p class="services__text">Покорите топ-10 приложений<br>в AppStrore и Google Play</p>
+      <button class="services__btn btn">Заказать</button>
+    </div>
+
+    <div class="services">
+      <img src="img/picture/3.jpg" alt="Картинка диаграммы" class="services__img">
+      <h3 class="services__title">Призентации</h3>
+      <p class="services__text">Вы даже не подозреваете,<br>насколько вы изумительны!</p>
+      <button class="services__btn btn">Заказать</button>
+    </div>
+
+  </section>
+
+  <section class="about-us clearfix">
+
+    <div class="information">
+      <h2 class="information__title">Мы &#8211; маленькая, но гордая<br>дизайн-студия из Краснодара.</h2>
+      <p class="information__text">Исповедуем принципы минимализма и чистоты. Ставим математический<br>расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+      <p class="information__desc">Выполняем заказы на разработку:</p>
+      <ul class="information__list">
+        <li class="information__item">
+          Веб-сайтов любой сложности
+        </li>
+        <li class="information__item">
+          Мобильных приложений для iOS и Android
+        </li>
+        <li class="information__item">
+          Слайдшоу и видео для корпоративных презентаций
+        </li>
+      </ul>
+    </div>
+
+    <div class="working-time">
+      <img src="img/logo/logo-2.png" alt="Логотип фирмы" class="working-time__img">
+      <div class="working-time__line">
+        <p class="working-time__desc">since 2004</p>
+      </div>
+      <p class="working-time__text">Как мы работаем:</p>
+      <ul class="working-time__list">
+        <li class="working-time__item">С самоотдачей 146%</li>
+        <li class="working-time__item">Соблюдая сроки на 100%</li>
+        <li class="working-time__item">По предоплате 50%</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="product-gallery">
+     
+    <div class="product-gallery__wrapper">
+      <a href="#" class="product-gallery__link">
+        <img src="img/logo-firm/1.png" alt="Glukhanko" class="product-gallery__img">
+      </a>
+    </div>
+    <div class="product-gallery__wrapper">
+      <a href="#" class="product-gallery__link">
+        <img src="img/logo-firm/2.png" alt="Htmlacademy" class="product-gallery__img">
+      </a>
+    </div>
+    <div class="product-gallery__wrapper">
+      <a href="#" class="product-gallery__link">
+        <img src="img/logo-firm/3.png" alt="Barbershop Borodinski" class="product-gallery__img">
+      </a>
+    </div>
+
+  </section>
+
+
+</main>
+
+
+<footer class="footer-main">
+  
+  <section class="footer-map">
+
+    <div class="contacts">
+      <h4 class="contacts__title">NЁRDS DESIGN STUDIO</h4>
+      <p class="contacts__text">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+      <p class="contacts__desc">тел. +7 (812) 275-75-75</p>
+      <button class="contacts__btn  btn">Напишите нам</button>
+    </div>
+
+    <div class="footer-logo">
+      <img src="img/other-pictures/sign.png" alt="Логотип фирмы" class="footer-logo__sign">
+      <img src="img/logo/logo-small.png" alt="Логотип фримы" class="footer-logo__img">
+    </div>
+
+   
+  </section>
+
+  <section class="footer-bottom container">
+
+    <div class="social">
+      <a class="social__link  social__link--vk" href="#"></a>
+      <a class="social__link  social__link--fb" href="#"></a>
+      <a class="social__link  social__link--in" href="#"></a>
+    </div>
+
+    <h2 class="footer-bottom__title">Давайте дружить, это выгодно!</h2>
+    <p class="footer-bottom__text">Скидка 10% для друзей из социальных сетей.</p>
+
+  </section>
+</footer>
+
+
+      <div class="modal-content">
+
+        <button class="modal-content__close" type="button" title="Закрыть">Закрыть</button>
+
+        <form class="" action="#" method="post">
+
+            <div class="modal-content__login">
+              <label class="modal-content__text" for="user-name">Ваше имя:</label>
+              <input class="modal-content__input" id="user-name" type="text" name="login-name" placeholder="Представтесь пожалуйста" required>
+            </div>
+
+            <div class="modal-content__email">
+              <label class="modal-content__text" for="email-box">Ваш e-mail:</label>
+              <input class="modal-content__input"  id="email-box" type="email" name="email" placeholder="Для отправки ответа" required>
+            </div>
+           
+            <div class="modal-content__letter">
+              <label class="modal-content__text" for="multiline-field">Текст письма:</label>
+              <textarea class="modal-content__textarea" id="multiline-field" name="letter" cols="63" rows="5" placeholder="В свободной форме"></textarea> 
+            </div>
+
+            <button class="btn modal-content__btn" type="submit" title="Отправить">Отправить</button>
+          
+        </form>
+
+      </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

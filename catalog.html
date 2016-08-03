@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nerds</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="header-main header-main--catalog clearfix">
+
+      <div class="header-main__wrapper container">
+
+        <div class="header-main__logo">
+          <img src="img/logo/logo.png" alt="Логотип фирмы">
+        </div>
+
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="index.html" class="main-nav__link">Студия</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Клиенты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link main-nav__link--catalog">Магазин</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Контакты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link main-nav__link--basket">Корзина</a>
+            </li>
+          </ul>  
+        </nav>  
+
+        <h1 class="header-main__title">Добро пожаловать в магазин<br>готовых макетов</h1>
+      
+      </div>
+
+    </header>
+
+
+    <main class="content-main container clearfix">
+      
+      <div class="filter">
+
+        <form action="#" class="filter__form">
+
+          <h2 class="filter__title">Стоимость:</h2>
+
+          <div class="range-filter">
+
+            <div class="range-filter__controls">
+              <div class="range-filter__scale"><div style="width:70%;" class="range-filter__bar"></div></div>
+              <div class="range-filter__toggle  range-filter__toggle--min"></div>
+              <div class="range-filter__toggle  range-filter__toggle--max"></div>
+            </div>
+
+            <div class="range-filter__price">
+              <label class="range-filter__total range-filter__total--min">от
+                <input class="range-filter__input range-filter__input--min" type="text" value="0">
+                  <span> </span>
+              </label>
+
+              <label class="range-filter__total range-filter__total--max">до
+                <input class="range-filter__input range-filter__input--max" type="text" value="15000">
+              </label>
+            </div>
+
+          </div> 
+
+              
+          <div class="mesh">
+
+            <h3 class="mesh__title">Сетка:</h3>
+
+            <input class="mesh__input" type="radio" name="mesh" value="adaptive" id="rd1" checked><label class="mesh__label" for="rd1">Адаптивная</label>
+
+            <input class="mesh__input" type="radio" name="mesh" value="fixed" id="rd2"><label class="mesh__label" for="rd2">Фексированная</label>
+
+            <input class="mesh__input" type="radio" name="mesh" value="elastic" id="rd3"><label class="mesh__label" for="rd3">Резиновая</label>
+             
+          </div>
+
+              
+          <div class="features">
+
+            <h3 class="features__title">Особенности:</h3>
+
+            <input class="features__input" type="checkbox" name="feature1" value="slider" id="chx1" checked><label class="features__label" for="chx1">Слайдер</label>
+            <input class="features__input" type="checkbox" name="feature2" value="advantages" id="chx2"><label class="features__label" for="chx2">Блок преимуществ</label>
+            <input class="features__input" type="checkbox" name="feature3" value="news" id="chx3" checked><label class="features__label" for="chx2">Новости</label>
+            <input class="features__input" type="checkbox" name="feature4" value="gallery" id="chx4"><label class="features__label" for="chx4">Галерея</label>
+            <input class="features__input" type="checkbox" name="feature5" value="basket" id="chx5"><label class="features__label" for="chx5">Корзина</label>
+
+          </div>
+
+          <button class="filter__btn btn" type="submit">ПОКАЗАТЬ</button>
+
+        </form>
+
+      </div>
+
+      <div class="catalog-content">
+
+        <div class="catalog-sorting">
+
+          <h3 class="catalog-sorting__title">Сортировать:</h3>
+
+          <ul class="catalog-sorting__list">
+            <li class="catalog-sorting__item">
+              <a href="#" class="catalog-sorting__link">По цене</a>
+            </li>
+            <li class="catalog-sorting__item">
+              <a href="#" class="catalog-sorting__link">По типу</a>
+            </li>
+            <li class="catalog-sorting__item">
+              <a href="#" class="catalog-sorting__link">По функционалу</a>
+            </li>
+          </ul>
+
+          <div class="guides">
+            <a href="#" class="guides__link"></a>
+            <a href="#" class="guides__link"></a>
+          </div>
+
+        </div>
+
+        <div class="catalog-designs">
+         
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Aviator</h4>
+             <p class="design__text">Одностоничный макет<br>с авторским дизайном</p>
+             <button class="design__btn btn">8000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo1.jpg" alt="Макет AVIATOR" class="design__img">
+         </article>
+
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Sunset</h4>
+             <p class="design__text">Интернет магазин<br>с личным кабинетом</p>
+             <button class="design__btn btn">10000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo2.jpg" alt="Макет SUNSET" class="design__img">
+         </article>
+
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Forte</h4>
+             <p class="design__text">Отличный макет<br>для личного блога</p>
+             <button class="design__btn btn">5000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo3.jpg" alt="Макет FORTE" class="design__img">
+         </article>
+
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Modern organic<br>thai</h4>
+             <p class="design__text">Сайт для ресторана<br>быстрого питания</p>
+             <button class="design__btn btn">12000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo4.jpg" alt="Макет MODERN ORGANIC" class="design__img">
+         </article>
+
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Avenue</h4>
+             <p class="design__text">Макет для блога<br>о путешествиях</p>
+             <button class="design__btn btn">8000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo5.jpg" alt="Макет AVENUE" class="design__img">
+         </article>
+
+         <article class="design">
+           <div class="design__price">
+             <h4 class="design__title">Dovitail</h4>
+             <p class="design__text">Интернет-магазин<br>с галереей товаров</p>
+             <button class="design__btn btn">14000р</button>
+           </div>
+           <div class="design__header">
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+             <div class="design__circles"></div>
+           </div>
+           <img src="img/photo/photo6.jpg" alt="Макет Dovetail" class="design__img">
+         </article>
+
+        </div>
+
+        <div class="catalog-paginator">
+          
+          <a href="catalog.html" class="catalog-paginator__link current">1</a>
+          <a href="#"  class="catalog-paginator__link">2</a>
+          <a href="#"  class="catalog-paginator__link">3</a>
+          <a href="#"  class="catalog-paginator__link">Следующая</a>
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer class="footer-main footer-main--catalog">
+  
+      <section class="footer-map">
+
+        <div class="contacts">
+          <h4 class="contacts__title">NЁRDS DESIGN STUDIO</h4>
+          <p class="contacts__text">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contacts__desc">тел. +7 (812) 275-75-75</p>
+          <button class="contacts__btn  btn">Напишите нам</button>
+        </div>
+
+        <div class="footer-logo">
+          <img src="img/other-pictures/sign.png" alt="Логотип фирмы" class="footer-logo__sign">
+          <img src="img/logo/logo-small.png" alt="Логотип фирмы" class="footer-logo__img">
+        </div>
+
+   
+      </section>
+
+      <section class="footer-bottom container">
+
+        <div class="social">
+          <a class="social__link  social__link--vk" href="#"></a>
+          <a class="social__link  social__link--fb" href="#"></a>
+          <a class="social__link  social__link--in" href="#"></a>
+        </div>
+
+        <h2 class="footer-bottom__title">Давайте дружить, это выгодно!</h2>
+        <p class="footer-bottom__text">Скидка 10% для друзей из социальных сетей.</p>
+
+      </section>
+
+    </footer>
+
+
+  </body>
+</html>
